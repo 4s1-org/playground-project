@@ -11,5 +11,8 @@
     "url": "git@gitlab.com:YellowGarbageGroup/spielwiese/some-project.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@yellowgarbagegroup/some-library": "^1.0.1"
+  }
 }
