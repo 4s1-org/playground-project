@@ -13,6 +13,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@yellowgarbagegroup/some-library": "^1.0.1"
+    "@yellowgarbagegroup/some-library": "1.0.0"
   }
 }
