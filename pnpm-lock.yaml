@@ -1,13 +1,13 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@yellowgarbagegroup/some-library': ^1.0.1
+  '@yellowgarbagegroup/some-library': 1.0.0
 
 dependencies:
-  '@yellowgarbagegroup/some-library': 1.0.1
+  '@yellowgarbagegroup/some-library': 1.0.0
 
 packages:
 
-  /@yellowgarbagegroup/some-library/1.0.1:
-    resolution: {integrity: sha1-fENSA3Y6SVsAVJsQFA4L/O4NmCY=, tarball: https://gitlab.com/api/v4/projects/28705297/packages/npm/@yellowgarbagegroup/some-library/-/@yellowgarbagegroup/some-library-1.0.1.tgz}
+  /@yellowgarbagegroup/some-library/1.0.0:
+    resolution: {integrity: sha1-1o8WI5YiuG6VvY0jdzTUKI2bO10=, tarball: https://gitlab.com/api/v4/projects/28705297/packages/npm/@yellowgarbagegroup/some-library/-/@yellowgarbagegroup/some-library-1.0.0.tgz}
     dev: false
