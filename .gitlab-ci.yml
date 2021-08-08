@@ -9,6 +9,7 @@ build:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
   script:
     - echo "//${CI_SERVER_HOST}/api/v4/packages/npm/:_authToken=${CI_JOB_TOKEN}" >> .npmrc
+    - cat .npmrc
     - npm i pnpm -g
     - pnpm i
     - pnpm run build
