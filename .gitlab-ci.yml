@@ -1,0 +1,13 @@
+stages:
+  - foo
+
+build:
+  stage: foo
+  tags:
+    - Yellow
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  script:
+    - npm i pnpm -g
+    - pnpm i
+    - pnpm run build
