@@ -6,8 +6,8 @@
     "type": "git",
     "url": "git@gitlab.com:YellowGarbageGroup/spielwiese/some-project.git"
   },
-  "license": "ISC",
-  "author": "",
+  "license": "MIT",
+  "author": "Steffen",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
