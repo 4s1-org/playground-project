@@ -7,7 +7,7 @@
     "url": "git@gitlab.com:YellowGarbageGroup/spielwiese/some-project.git"
   },
   "license": "MIT",
-  "author": "Steffen",
+  "author": "Steffen <YellowGarbageBag@4s1.de>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
