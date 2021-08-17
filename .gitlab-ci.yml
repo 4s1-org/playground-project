@@ -2,7 +2,7 @@ stages:
   - foo
   - deploying
 
-build:
+.build:
   stage: foo
   image: registry.gitlab.com/yellowgarbagegroup/docker-images/node-with-pnpm:14-alpine
   rules:
@@ -12,7 +12,7 @@ build:
     - pnpm i
     - pnpm run build
 
-publish:
+.publish:
   stage: foo
   image: registry.gitlab.com/yellowgarbagegroup/docker-images/node-with-pnpm:14-alpine
   rules:
@@ -27,7 +27,7 @@ dockerize:
   stage: deploying
   image: docker:20
   variables:
-    DOCKER_HOST: tcp://docker:2376
+    #DOCKER_HOST: tcp://docker:2376
     DOCKER_TLS_CERTDIR: "/certs"
     DOCKER_TLS_VERIFY: 1
     DOCKER_CERT_PATH: "$DOCKER_TLS_CERTDIR/client"
