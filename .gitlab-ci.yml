@@ -28,7 +28,7 @@ dockerize:
   image: docker:20
   tags:
     - docker
-    - laptop
+    - azure
   variables:
     DOCKER_HOST: tcp://docker:2376
     DOCKER_TLS_CERTDIR: "/certs"
