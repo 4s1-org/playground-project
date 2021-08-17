@@ -1,5 +1,6 @@
 stages:
   - foo
+  - deploying
 
 build:
   stage: foo
@@ -21,3 +22,26 @@ publish:
     - pnpm i
     - pnpm run build
     - pnpm publish
+
+dockerize:
+  stage: deploying
+  image: docker:20
+  variables:
+    DOCKER_HOST: tcp://docker:2376
+    DOCKER_TLS_CERTDIR: "/certs"
+    DOCKER_TLS_VERIFY: 1
+    DOCKER_CERT_PATH: "$DOCKER_TLS_CERTDIR/client"
+    NODE_VERSION: 14-alpine
+  services:
+    - docker:20-dind
+  rules:
+    - if: "$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH"
+  before_script:
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+  script:
+    - docker build
+      --cache-from $CI_REGISTRY_IMAGE:latest
+      --tag $CI_REGISTRY_IMAGE:latest
+      --file Dockerfile .
+    - docker push $CI_REGISTRY_IMAGE:latest
+
