@@ -10,8 +10,10 @@
   "author": "Steffen <YellowGarbageBag@4s1.de>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "echo no tests",
+    "lbt": "npm run lint && npm run build && npm run test",
+    "lint": "echo no linting"
   },
   "dependencies": {
     "@yellowgarbagegroup/some-library": "2.0.0",
