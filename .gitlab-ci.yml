@@ -2,7 +2,7 @@ stages:
   - validating
   - deploying
 
-.validate:
+validate:
   stage: validating
   image: registry.gitlab.com/yellowgarbagegroup/docker-images/node-with-pnpm:14-alpine
   script:
