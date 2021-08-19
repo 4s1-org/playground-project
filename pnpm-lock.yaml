@@ -1,17 +1,17 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@yellowgarbagegroup/some-library': 2.0.0
+  '@yellowgarbagegroup/some-library': 2.0.2
   typescript: ^4.3.5
 
 dependencies:
-  '@yellowgarbagegroup/some-library': 2.0.0
+  '@yellowgarbagegroup/some-library': 2.0.2
   typescript: 4.3.5
 
 packages:
 
-  /@yellowgarbagegroup/some-library/2.0.0:
-    resolution: {integrity: sha1-RmUJS3JYJ+eiOVC/5bHUjkPjERs=, tarball: https://gitlab.com/api/v4/projects/28705297/packages/npm/@yellowgarbagegroup/some-library/-/@yellowgarbagegroup/some-library-2.0.0.tgz}
+  /@yellowgarbagegroup/some-library/2.0.2:
+    resolution: {integrity: sha1-MNKxb1vO5q/NEMvneo9GyD3nl8k=, tarball: https://gitlab.com/api/v4/projects/28705297/packages/npm/@yellowgarbagegroup/some-library/-/@yellowgarbagegroup/some-library-2.0.2.tgz}
     dev: false
 
   /typescript/4.3.5:
