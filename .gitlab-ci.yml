@@ -4,7 +4,7 @@ stages:
 
 validate:
   stage: validating
-  image: registry.gitlab.com/yellowgarbagegroup/docker-images/node-with-pnpm:14-alpine
+  image: registry.gitlab.com/yellowgarbagegroup/docker-images/node:14-alpine-dev
   script:
     - pnpm i
     - pnpm run lint
