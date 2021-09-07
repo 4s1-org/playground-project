@@ -1,13 +1,13 @@
 {
-  "name": "@yellowgarbagegroup/some-project",
+  "name": "@4s1/some-project",
   "version": "1.0.4",
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git@gitlab.com:YellowGarbageGroup/spielwiese/some-project.git"
+    "url": "git+ssh://git@gitlab.com/4s1/spielwiese/some-project.git"
   },
   "license": "MIT",
-  "author": "Steffen <YellowGarbageBag@4s1.de>",
+  "author": "Steffen <steffen@4s1.de>",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
@@ -16,11 +16,11 @@
     "lint": "echo no linting"
   },
   "dependencies": {
-    "@yellowgarbagegroup/some-library": "2.1.7",
+    "@4s1/some-library": "3.0.0",
     "typescript": "^4.3.5"
   },
   "publishConfig": {
-    "@yellowgarbagegroup:registry": "https://gitlab.com/api/v4/projects/28705291/packages/npm/",
+    "@4s1:registry": "https://gitlab.com/api/v4/projects/28705291/packages/npm/",
     "access": "public"
   }
 }
