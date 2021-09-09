@@ -1,17 +1,17 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@4s1/some-library': 3.1.0
+  '@4s1/some-library': 3.1.1
   typescript: ^4.3.5
 
 dependencies:
-  '@4s1/some-library': 3.1.0
+  '@4s1/some-library': 3.1.1
   typescript: 4.3.5
 
 packages:
 
-  /@4s1/some-library/3.1.0:
-    resolution: {integrity: sha1-Hh4S/kxBeNGVvk5A3aKXF1PNWMo=, tarball: https://gitlab.com/api/v4/projects/28705297/packages/npm/@4s1/some-library/-/@4s1/some-library-3.1.0.tgz}
+  /@4s1/some-library/3.1.1:
+    resolution: {integrity: sha1-nm5xVDrTgXkJAe7q22Gl5UbtCg0=, tarball: https://gitlab.com/api/v4/projects/28705297/packages/npm/@4s1/some-library/-/@4s1/some-library-3.1.1.tgz}
     dev: false
 
   /typescript/4.3.5:
