@@ -2,10 +2,10 @@
   "name": "@4s1/some-project",
   "version": "1.0.4",
   "description": "",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@gitlab.com/4s1/spielwiese/some-project.git"
+  "bugs": {
+    "url": "https://gitlab.com/4s1/playground/some-project/issues"
   },
+  "repository": "gitlab:4s1/playground/some-project",
   "license": "MIT",
   "author": "Steffen <steffen@4s1.de>",
   "main": "index.js",
