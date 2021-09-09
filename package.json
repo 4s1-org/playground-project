@@ -16,7 +16,7 @@
     "lint": "echo no linting"
   },
   "dependencies": {
-    "@4s1/some-library": "3.0.1",
+    "@4s1/some-library": "3.0.2",
     "typescript": "^4.3.5"
   },
   "publishConfig": {
