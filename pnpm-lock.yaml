@@ -2,13 +2,13 @@ lockfileVersion: 5.3
 
 specifiers:
   '@4s1/eslint-config': 3.1.2
-  '@4s1/some-library': 3.1.3
+  '@4s1/some-library': 3.3.0
   eslint: 7.32.0
   prettier: 2.4.0
   typescript: 4.3.5
 
 dependencies:
-  '@4s1/some-library': 3.1.3
+  '@4s1/some-library': 3.3.0
 
 devDependencies:
   '@4s1/eslint-config': 3.1.2_39017cd4a67046399152c5ac0498a694
@@ -35,8 +35,8 @@ packages:
       - typescript
     dev: true
 
-  /@4s1/some-library/3.1.3:
-    resolution: {integrity: sha1-gb7L/zt5SSgcdpDbuIA5vy2rt9k=, tarball: https://gitlab.com/api/v4/projects/28705297/packages/npm/@4s1/some-library/-/@4s1/some-library-3.1.3.tgz}
+  /@4s1/some-library/3.3.0:
+    resolution: {integrity: sha1-7yVJQflwQu8tA/82kz6hIqym07U=, tarball: https://gitlab.com/api/v4/projects/28705297/packages/npm/@4s1/some-library/-/@4s1/some-library-3.3.0.tgz}
     dev: false
 
   /@babel/code-frame/7.12.11:
