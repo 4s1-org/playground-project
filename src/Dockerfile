@@ -1,2 +1,2 @@
-FROM node:14.15.1-alpine3.12
+FROM node:14.17.6-alpine3.12
 ENV foo=bar
