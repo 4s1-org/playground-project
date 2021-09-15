@@ -12,13 +12,14 @@ validate-job:
   before_script:
     - pnpm config set store-dir .pnpm-store
     - echo "//${CI_API_V4_URL}/packages/npm/:_authToken=${CI_JOB_TOKEN}" >> .npmrc
+    - cat .npmrc
   script:
     - pnpm i
     - pnpm run lint
     - pnpm run build
     - pnpm run test
 
-deploy-job:
+.deploy-job:
   stage: deploy
   image:
     name: gcr.io/kaniko-project/executor:debug
