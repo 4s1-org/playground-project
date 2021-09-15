@@ -18,7 +18,7 @@ validate-job:
     - pnpm run build
     - pnpm run test
 
-.deploy-job:
+deploy-job:
   stage: deploy
   image:
     name: gcr.io/kaniko-project/executor:debug
