@@ -12,7 +12,6 @@ validate-job:
   before_script:
     - pnpm config set store-dir .pnpm-store
     - echo "//gitlab.com/api/v4/packages/npm/:_authToken=${CI_JOB_TOKEN}" >> .npmrc
-    - cat .npmrc
   script:
     - pnpm i
     - pnpm run lint
