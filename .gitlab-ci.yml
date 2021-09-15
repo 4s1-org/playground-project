@@ -5,21 +5,13 @@ stages:
 validate-job:
   stage: validate
   image: registry.gitlab.com/4s1/docker/node:14-alpine-dev
-  #cache:
-  #  key: "$CI_COMMIT_REF_SLUG"
-  #  paths:
-  #    - .pnpm-store
+  cache:
+    key: "$CI_COMMIT_REF_SLUG"
+    paths:
+      - .pnpm-store
   before_script:
-  #  - pnpm config set store-dir .pnpm-store
-    #- echo "@${CI_PROJECT_ROOT_NAMESPACE}:registry=${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/npm/" >> .npmrc
-    #- echo "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/npm/:_authToken=\${CI_JOB_TOKEN}" >> .npmrc
-    #- npm config set //${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/npm/:_authToken ${NPM_TOKEN}
-    #- npm config set "//${CI_API_V4_URL}/packages/npm/:_authToken" "${NPM_TOKEN}"
-    - npm config set -- '//gitlab.com/api/v4/packages/npm/:_authToken' "${CI_JOB_TOKEN}"
-    - cat ~/.npmrc
-    - echo "${CI_API_V4_URL}"
+    - pnpm config set store-dir .pnpm-store
     - echo "//${CI_API_V4_URL}/packages/npm/:_authToken=${CI_JOB_TOKEN}" >> .npmrc
-    - cat .npmrc    
   script:
     - pnpm i
     - pnpm run lint
