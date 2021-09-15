@@ -16,7 +16,7 @@ validate-job:
     #- npm config set //${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/npm/:_authToken ${NPM_TOKEN}
     #- npm config set "//${CI_API_V4_URL}/packages/npm/:_authToken" "${NPM_TOKEN}"
     - npm config set -- '//${CI_API_V4_URL}/packages/npm/:_authToken' "${NPM_TOKEN}"
-    - cat .npmrc
+    - cat ~/.npmrc
   #script:
     - pnpm i
     - pnpm run lint
