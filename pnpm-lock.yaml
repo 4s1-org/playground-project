@@ -2,13 +2,13 @@ lockfileVersion: 5.3
 
 specifiers:
   '@4s1/eslint-config': 3.1.2
-  '@4s1/some-library': 4.0.2
+  '@4s1/some-library': 4.0.3
   eslint: 7.32.0
   prettier: 2.4.0
   typescript: 4.4.3
 
 dependencies:
-  '@4s1/some-library': 4.0.2
+  '@4s1/some-library': 4.0.3
 
 devDependencies:
   '@4s1/eslint-config': 3.1.2_23d955de50983a3ab287a8805fd5b8d1
@@ -35,8 +35,8 @@ packages:
       - typescript
     dev: true
 
-  /@4s1/some-library/4.0.2:
-    resolution: {integrity: sha1-eXVdP2FG27NBwKyzbvpOwiCKtuM=, tarball: https://gitlab.com/api/v4/projects/28705297/packages/npm/@4s1/some-library/-/@4s1/some-library-4.0.2.tgz}
+  /@4s1/some-library/4.0.3:
+    resolution: {integrity: sha1-9B8WjoOxoLxgtJsjskuXGTa5S3c=, tarball: https://gitlab.com/api/v4/projects/28705297/packages/npm/@4s1/some-library/-/@4s1/some-library-4.0.3.tgz}
     dependencies:
       '@commitlint/cli': 13.1.0
       '@commitlint/config-conventional': 13.1.0
