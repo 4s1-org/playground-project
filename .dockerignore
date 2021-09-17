@@ -18,3 +18,5 @@ Dockerfile
 **/*.tgz
 *.tar.gz
 **/.env
+.commmitlintrc.json
+.versionrc.js

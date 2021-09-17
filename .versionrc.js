@@ -1,3 +1,5 @@
 const config = require('@4s1/changelog-config')
 
-module.exports = config('https://gitlab.com/4s1/playground/some-project')
+var cfg = config('https://gitlab.com/4s1/playground/some-project')
+cfg.releaseCommitMessageFormat = cfg.releaseCommitMessageFormat.replace('[skip ci]', '').trim()
+module.exports = cfg
