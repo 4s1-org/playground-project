@@ -19,7 +19,7 @@
     "lint": "echo no linting"
   },
   "dependencies": {
-    "@4s1/some-library": "4.0.3"
+    "@4s1/some-library": "4.0.12"
   },
   "publishConfig": {
     "@4s1:registry": "https://gitlab.com/api/v4/projects/28705291/packages/npm/",
