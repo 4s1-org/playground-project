@@ -13,22 +13,30 @@
   "author": "Steffen <steffen@4s1.de>",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf dist && tsc",
     "test": "echo no tests",
     "lbt": "npm run lint && npm run build && npm run test",
-    "lint": "echo no linting"
+    "lint": "echo no linting",
+    "release": "git diff --exit-code --quiet && pnpm run lbt && standard-version",
+    "release:major": "pnpm run release -- --release-as major",
+    "release:minor": "pnpm run release -- --release-as minor",
+    "release:patch": "pnpm run release -- --release-as patch",
+    "prepare": "husky install"
   },
+  "prettier": "@4s1/eslint-config",
   "dependencies": {
     "@4s1/some-library": "4.0.12"
   },
-  "publishConfig": {
-    "@4s1:registry": "https://gitlab.com/api/v4/projects/28705291/packages/npm/",
-    "access": "public"
-  },
   "devDependencies": {
+    "@4s1/changelog-config": "1.0.0",
     "@4s1/eslint-config": "3.1.2",
+    "@commitlint/cli": "13.1.0",
+    "@commitlint/config-conventional": "13.1.0",
+    "@types/node": "14.17.17",
     "eslint": "7.32.0",
+    "husky": "7.0.2",
     "prettier": "2.4.1",
+    "standard-version": "9.3.1",
     "typescript": "4.4.3"
   }
 }
