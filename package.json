@@ -26,7 +26,7 @@
   },
   "prettier": "@4s1/eslint-config",
   "dependencies": {
-    "@4s1/some-library": "4.0.13"
+    "@4s1/some-library": "4.0.14"
   },
   "devDependencies": {
     "@4s1/changelog-config": "2.0.0",
