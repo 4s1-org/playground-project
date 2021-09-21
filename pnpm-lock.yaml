@@ -6,7 +6,7 @@ specifiers:
   '@4s1/some-library': 4.0.14
   '@commitlint/cli': 13.1.0
   '@commitlint/config-conventional': 13.1.0
-  '@types/node': 14.17.17
+  '@types/node': 14.17.18
   eslint: 7.32.0
   husky: 7.0.2
   prettier: 2.4.1
@@ -21,7 +21,7 @@ devDependencies:
   '@4s1/eslint-config': 3.1.2_13388322ed5f5557f11897bd277b61cc
   '@commitlint/cli': 13.1.0
   '@commitlint/config-conventional': 13.1.0
-  '@types/node': 14.17.17
+  '@types/node': 14.17.18
   eslint: 7.32.0
   husky: 7.0.2
   prettier: 2.4.1
@@ -292,8 +292,8 @@ packages:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
     dev: true
 
-  /@types/node/14.17.17:
-    resolution: {integrity: sha512-niAjcewgEYvSPCZm3OaM9y6YQrL2SEPH9PymtE6fuZAvFiP6ereCcvApGl2jKTq7copTIguX3PBvfP08LN4LvQ==}
+  /@types/node/14.17.18:
+    resolution: {integrity: sha512-haYyibw4pbteEhkSg0xdDLAI3679L75EJ799ymVrPxOA922bPx3ML59SoDsQ//rHlvqpu+e36kcbR3XRQtFblA==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
