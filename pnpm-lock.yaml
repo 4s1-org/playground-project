@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@4s1/changelog-config': 2.0.3
+  '@4s1/changelog-config': 3.0.0
   '@4s1/eslint-config': 3.1.2
   '@4s1/some-library': 4.0.14
   '@commitlint/cli': 13.2.0
@@ -17,7 +17,7 @@ dependencies:
   '@4s1/some-library': 4.0.14
 
 devDependencies:
-  '@4s1/changelog-config': 2.0.3
+  '@4s1/changelog-config': 3.0.0
   '@4s1/eslint-config': 3.1.2_13388322ed5f5557f11897bd277b61cc
   '@commitlint/cli': 13.2.0_typescript@4.4.3
   '@commitlint/config-conventional': 13.2.0
@@ -30,8 +30,8 @@ devDependencies:
 
 packages:
 
-  /@4s1/changelog-config/2.0.3:
-    resolution: {integrity: sha1-as6uH2GwyBqrzsiBqXZMBAA0Q5Q=, tarball: https://gitlab.com/api/v4/projects/29686867/packages/npm/@4s1/changelog-config/-/@4s1/changelog-config-2.0.3.tgz}
+  /@4s1/changelog-config/3.0.0:
+    resolution: {integrity: sha1-bTDI7Px+z2/ZfoVsM1ojUmBHreM=, tarball: https://gitlab.com/api/v4/projects/29686867/packages/npm/@4s1/changelog-config/-/@4s1/changelog-config-3.0.0.tgz}
     dev: true
 
   /@4s1/eslint-config/3.1.2_13388322ed5f5557f11897bd277b61cc:
