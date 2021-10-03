@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "postchangelog": "sed -r -e 's/^#{1,3} \\[/## [/' -i CHANGELOG.md"
+  },
+  "commitUrlFormat": "{{host}}/{{owner}}/{{repository}}/commit/{{hash}}",
+  "compareUrlFormat": "{{host}}/{{owner}}/{{repository}}/compare/{{previousTag}}...{{currentTag}}",
+  "releaseCommitMessageFormat": "chore(release): {{currentTag}} [skip ci]"
+}

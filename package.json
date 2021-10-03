@@ -12,10 +12,15 @@
   },
   "license": "MIT",
   "author": "Steffen <steffen@4s1.de>",
-  "main": "index.js",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
   "scripts": {
     "build": "rm -rf dist && tsc",
+    "build:dev": "npm run build -- --project tsconfig.dev.json",
     "test": "echo no tests",
+    "start": "node dist/index.js",
     "lbt": "npm run lint && npm run build && npm run test",
     "lint": "echo no linting",
     "release": "git diff --exit-code --quiet && pnpm run lbt && standard-version",
@@ -26,11 +31,11 @@
   },
   "prettier": "@4s1/eslint-config",
   "dependencies": {
-    "@4s1/some-library": "4.0.14"
+    "@4s1/some-library": "5.0.1"
   },
   "devDependencies": {
-    "@4s1/changelog-config": "3.0.0",
     "@4s1/eslint-config": "3.1.2",
+    "@4s1/ts-config": "1.1.0",
     "@commitlint/cli": "13.2.0",
     "@commitlint/config-conventional": "13.2.0",
     "@types/node": "14.17.20",

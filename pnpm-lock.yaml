@@ -1,9 +1,9 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@4s1/changelog-config': 3.0.0
   '@4s1/eslint-config': 3.1.2
-  '@4s1/some-library': 4.0.14
+  '@4s1/some-library': 5.0.1
+  '@4s1/ts-config': 1.1.0
   '@commitlint/cli': 13.2.0
   '@commitlint/config-conventional': 13.2.0
   '@types/node': 14.17.20
@@ -14,11 +14,11 @@ specifiers:
   typescript: 4.4.3
 
 dependencies:
-  '@4s1/some-library': 4.0.14
+  '@4s1/some-library': 5.0.1
 
 devDependencies:
-  '@4s1/changelog-config': 3.0.0
   '@4s1/eslint-config': 3.1.2_13388322ed5f5557f11897bd277b61cc
+  '@4s1/ts-config': 1.1.0
   '@commitlint/cli': 13.2.0_typescript@4.4.3
   '@commitlint/config-conventional': 13.2.0
   '@types/node': 14.17.20
@@ -29,10 +29,6 @@ devDependencies:
   typescript: 4.4.3
 
 packages:
-
-  /@4s1/changelog-config/3.0.0:
-    resolution: {integrity: sha1-bTDI7Px+z2/ZfoVsM1ojUmBHreM=, tarball: https://gitlab.com/api/v4/projects/29686867/packages/npm/@4s1/changelog-config/-/@4s1/changelog-config-3.0.0.tgz}
-    dev: true
 
   /@4s1/eslint-config/3.1.2_13388322ed5f5557f11897bd277b61cc:
     resolution: {integrity: sha1-FJW2W7txRUEt82UAoC6qHCQpVFM=, tarball: https://gitlab.com/api/v4/projects/28730798/packages/npm/@4s1/eslint-config/-/@4s1/eslint-config-3.1.2.tgz}
@@ -51,17 +47,22 @@ packages:
       - typescript
     dev: true
 
-  /@4s1/some-library/4.0.14:
-    resolution: {integrity: sha1-KC9BPIW+WmfqSclnMBX6XV+RMpE=, tarball: https://gitlab.com/api/v4/projects/28705297/packages/npm/@4s1/some-library/-/@4s1/some-library-4.0.14.tgz}
+  /@4s1/some-library/5.0.1:
+    resolution: {integrity: sha1-su4nxdmRP2/noOg2c2y84bNk374=, tarball: https://gitlab.com/api/v4/projects/28705297/packages/npm/@4s1/some-library/-/@4s1/some-library-5.0.1.tgz}
     requiresBuild: true
     dependencies:
-      '@4s1/toolbox': 1.2.3
+      '@4s1/toolbox': 2.0.0
     dev: false
 
-  /@4s1/toolbox/1.2.3:
-    resolution: {integrity: sha1-5uwG6bLMpAeTG/2ccfIHi1SYe+M=, tarball: https://gitlab.com/api/v4/projects/29537331/packages/npm/@4s1/toolbox/-/@4s1/toolbox-1.2.3.tgz}
+  /@4s1/toolbox/2.0.0:
+    resolution: {integrity: sha1-UVjBGG+2w46YDu8VKCd+lP468Sg=, tarball: https://gitlab.com/api/v4/projects/29537331/packages/npm/@4s1/toolbox/-/@4s1/toolbox-2.0.0.tgz}
     requiresBuild: true
     dev: false
+
+  /@4s1/ts-config/1.1.0:
+    resolution: {integrity: sha1-FttjoYnbDVPOjMMiX/mD7QbNgt4=, tarball: https://gitlab.com/api/v4/projects/30088896/packages/npm/@4s1/ts-config/-/@4s1/ts-config-1.1.0.tgz}
+    requiresBuild: true
+    dev: true
 
   /@babel/code-frame/7.12.11:
     resolution: {integrity: sha512-Zt1yodBx1UcyiePMSkWnU4hPqhwq7hGi2nFL1LeA3EUl+q2LQx16MISgJ0+z7dnmgvP9QtIleuETGOiOH1RcIw==}
