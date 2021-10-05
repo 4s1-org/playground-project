@@ -31,7 +31,7 @@
   },
   "prettier": "@4s1/eslint-config",
   "dependencies": {
-    "@4s1/some-library": "5.0.1"
+    "@4s1/some-library": "6.0.2"
   },
   "devDependencies": {
     "@4s1/eslint-config": "3.1.2",
