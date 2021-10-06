@@ -6,7 +6,7 @@ specifiers:
   '@4s1/ts-config': 1.1.0
   '@commitlint/cli': 13.2.0
   '@commitlint/config-conventional': 13.2.0
-  '@types/node': 14.17.20
+  '@types/node': 14.17.21
   eslint: 7.32.0
   husky: 7.0.2
   prettier: 2.4.1
@@ -21,7 +21,7 @@ devDependencies:
   '@4s1/ts-config': 1.1.0
   '@commitlint/cli': 13.2.0_typescript@4.4.3
   '@commitlint/config-conventional': 13.2.0
-  '@types/node': 14.17.20
+  '@types/node': 14.17.21
   eslint: 7.32.0
   husky: 7.0.2
   prettier: 2.4.1
@@ -313,8 +313,8 @@ packages:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
     dev: true
 
-  /@types/node/14.17.20:
-    resolution: {integrity: sha512-gI5Sl30tmhXsqkNvopFydP7ASc4c2cLfGNQrVKN3X90ADFWFsPEsotm/8JHSUJQKTHbwowAHtcJPeyVhtKv0TQ==}
+  /@types/node/14.17.21:
+    resolution: {integrity: sha512-zv8ukKci1mrILYiQOwGSV4FpkZhyxQtuFWGya2GujWg+zVAeRQ4qbaMmWp9vb9889CFA8JECH7lkwCL6Ygg8kA==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
