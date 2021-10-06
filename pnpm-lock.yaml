@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@4s1/eslint-config': 3.1.2
-  '@4s1/some-library': 5.0.1
+  '@4s1/some-library': 6.0.2
   '@4s1/ts-config': 1.1.0
   '@commitlint/cli': 13.2.0
   '@commitlint/config-conventional': 13.2.0
@@ -14,7 +14,7 @@ specifiers:
   typescript: 4.4.3
 
 dependencies:
-  '@4s1/some-library': 5.0.1
+  '@4s1/some-library': 6.0.2
 
 devDependencies:
   '@4s1/eslint-config': 3.1.2_13388322ed5f5557f11897bd277b61cc
@@ -47,8 +47,8 @@ packages:
       - typescript
     dev: true
 
-  /@4s1/some-library/5.0.1:
-    resolution: {integrity: sha1-su4nxdmRP2/noOg2c2y84bNk374=, tarball: https://gitlab.com/api/v4/projects/28705297/packages/npm/@4s1/some-library/-/@4s1/some-library-5.0.1.tgz}
+  /@4s1/some-library/6.0.2:
+    resolution: {integrity: sha1-5sJbmlgpXA9leXNQ0gUB+7TyaB4=, tarball: https://gitlab.com/api/v4/projects/28705297/packages/npm/@4s1/some-library/-/@4s1/some-library-6.0.2.tgz}
     requiresBuild: true
     dependencies:
       '@4s1/toolbox': 2.0.0
