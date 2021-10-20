@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@4s1/eslint-config': 3.2.0
-  '@4s1/some-library': 6.0.2
+  '@4s1/some-library': 6.0.3
   '@4s1/ts-config': 1.2.2
   '@commitlint/cli': 13.2.1
   '@commitlint/config-conventional': 13.2.0
@@ -14,7 +14,7 @@ specifiers:
   typescript: 4.4.4
 
 dependencies:
-  '@4s1/some-library': 6.0.2
+  '@4s1/some-library': 6.0.3
 
 devDependencies:
   '@4s1/eslint-config': 3.2.0_fa8816e733f635ed05aee18bb82c3c19
@@ -47,15 +47,15 @@ packages:
       - typescript
     dev: true
 
-  /@4s1/some-library/6.0.2:
-    resolution: {integrity: sha1-5sJbmlgpXA9leXNQ0gUB+7TyaB4=, tarball: https://gitlab.com/api/v4/projects/28705297/packages/npm/@4s1/some-library/-/@4s1/some-library-6.0.2.tgz}
+  /@4s1/some-library/6.0.3:
+    resolution: {integrity: sha1-POpJIo0R/nYvwA3m3rpCq4Xr2iQ=, tarball: https://gitlab.com/api/v4/projects/28705297/packages/npm/@4s1/some-library/-/@4s1/some-library-6.0.3.tgz}
     requiresBuild: true
     dependencies:
-      '@4s1/toolbox': 2.0.0
+      '@4s1/toolbox': 3.0.0
     dev: false
 
-  /@4s1/toolbox/2.0.0:
-    resolution: {integrity: sha1-UVjBGG+2w46YDu8VKCd+lP468Sg=, tarball: https://gitlab.com/api/v4/projects/29537331/packages/npm/@4s1/toolbox/-/@4s1/toolbox-2.0.0.tgz}
+  /@4s1/toolbox/3.0.0:
+    resolution: {integrity: sha1-3fIuGUy4/MOEOSbwUGg3o/KkA+Y=, tarball: https://gitlab.com/api/v4/projects/29537331/packages/npm/@4s1/toolbox/-/@4s1/toolbox-3.0.0.tgz}
     requiresBuild: true
     dev: false
 
