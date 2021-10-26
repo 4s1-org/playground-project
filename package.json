@@ -34,7 +34,7 @@
     "@4s1/some-library": "6.0.3"
   },
   "devDependencies": {
-    "@4s1/eslint-config": "3.2.0",
+    "@4s1/eslint-config": "3.2.1",
     "@4s1/ts-config": "1.2.2",
     "@commitlint/cli": "13.2.1",
     "@commitlint/config-conventional": "13.2.0",
