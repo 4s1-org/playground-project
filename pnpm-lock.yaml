@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@4s1/eslint-config': 3.2.1
+  '@4s1/eslint-config': 3.2.2
   '@4s1/some-library': 6.0.3
   '@4s1/ts-config': 1.2.2
   '@commitlint/cli': 13.2.1
@@ -17,7 +17,7 @@ dependencies:
   '@4s1/some-library': 6.0.3
 
 devDependencies:
-  '@4s1/eslint-config': 3.2.1_4970c9ef821f42521db3d44d315eaeea
+  '@4s1/eslint-config': 3.2.2_4970c9ef821f42521db3d44d315eaeea
   '@4s1/ts-config': 1.2.2
   '@commitlint/cli': 13.2.1
   '@commitlint/config-conventional': 13.2.0
@@ -30,8 +30,8 @@ devDependencies:
 
 packages:
 
-  /@4s1/eslint-config/3.2.1_4970c9ef821f42521db3d44d315eaeea:
-    resolution: {integrity: sha1-+4hgPdbfyLfXazfhFVayhALsTzw=, tarball: https://gitlab.com/api/v4/projects/28730798/packages/npm/@4s1/eslint-config/-/@4s1/eslint-config-3.2.1.tgz}
+  /@4s1/eslint-config/3.2.2_4970c9ef821f42521db3d44d315eaeea:
+    resolution: {integrity: sha1-RedV2fIuKUzpWJbX3fx8zfnWxH8=, tarball: https://gitlab.com/api/v4/projects/28730798/packages/npm/@4s1/eslint-config/-/@4s1/eslint-config-3.2.2.tgz}
     peerDependencies:
       eslint: '>=7.32.0'
       prettier: '>= 2.4.0'
