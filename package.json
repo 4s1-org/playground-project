@@ -45,6 +45,6 @@
     "typescript": "4.5.2"
   },
   "dependencies": {
-    "@4s1/playground-library": "^8.0.0"
+    "@4s1/playground-library": "8.0.0"
   }
 }
