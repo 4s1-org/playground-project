@@ -18,6 +18,6 @@
     "[typescriptreact]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "window.title": "Some Project"
+    "window.title": "PG Project"
   }
 }
