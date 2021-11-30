@@ -1,4 +1,1 @@
 # Playground - Project
-
-foo
-v
