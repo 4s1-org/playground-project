@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@4s1/eslint-config': 3.2.2
-  '@4s1/playground-library': 8.1.0
+  '@4s1/playground-library': 8.3.0
   '@4s1/ts-config': 1.3.1
   '@commitlint/cli': 15.0.0
   '@commitlint/config-conventional': 15.0.0
@@ -15,7 +15,7 @@ specifiers:
   typescript: 4.5.2
 
 dependencies:
-  '@4s1/playground-library': 8.1.0
+  '@4s1/playground-library': 8.3.0
 
 devDependencies:
   '@4s1/eslint-config': 3.2.2_1939e8b2cdc0829ef568245bfded92ee
@@ -49,8 +49,8 @@ packages:
       - typescript
     dev: true
 
-  /@4s1/playground-library/8.1.0:
-    resolution: {integrity: sha1-HnGvI9oB3XCBG0+uUkqGxUe/LwE=, tarball: https://gitlab.com/api/v4/projects/28705297/packages/npm/@4s1/playground-library/-/@4s1/playground-library-8.1.0.tgz}
+  /@4s1/playground-library/8.3.0:
+    resolution: {integrity: sha1-GkXTncYTagklX1OO1u1lemNbfw0=, tarball: https://gitlab.com/api/v4/projects/28705297/packages/npm/@4s1/playground-library/-/@4s1/playground-library-8.3.0.tgz}
     dependencies:
       '@4s1/toolbox': 4.0.1
     dev: false
