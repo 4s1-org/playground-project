@@ -1,3 +1,3 @@
 # Playground - Project
 
-This project is only for test purpose has no useful functions.
+This project is only for test purpose and has no useful functions.
