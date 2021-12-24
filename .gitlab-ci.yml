@@ -1,14 +1,14 @@
 include:
   - project: 4s1/gitlab-ci-config
     file: 'all/.gitlab-ci.yml'
-  - project: 4s1/gitlab-ci-config
-    file: 'validate/.gitlab-ci.yml'
+#  - project: 4s1/gitlab-ci-config
+#   file: 'validate/.gitlab-ci.yml'
   - project: 4s1/gitlab-ci-config
     file: 'sonar/.gitlab-ci.yml'
   - project: 4s1/gitlab-ci-config
     file: 'deploy/.gitlab-ci.yml'
 
 stages:
-  - validate
+#  - validate
   - sonar
   - deploy
