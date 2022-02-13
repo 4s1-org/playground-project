@@ -1,8 +1,8 @@
-describe('dummy', () => {
-  it('dummy', () => {
-    // Arrange
-    // Act
-    // Assert
-    expect(1).toEqual(1)
-  })
+import test from 'ava'
+
+test('dummy', (t) => {
+  // Arrange
+  // Act
+  // Assert
+  t.pass()
 })
