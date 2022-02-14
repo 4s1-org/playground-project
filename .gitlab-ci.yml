@@ -6,7 +6,7 @@ include:
   - project: 4s1/gitlab-ci-config
     file: 'typescript/sonarlint/.gitlab-ci.yml'
   - project: 4s1/gitlab-ci-config
-    file: 'typescript/deploy-docker/.gitlab-ci.yml
+    file: 'typescript/deploy-docker/.gitlab-ci.yml'
 
 stages:
   - validate
