@@ -13,7 +13,7 @@ specifiers:
   husky: 7.0.4
   prettier: 2.5.1
   standard-version: 9.3.2
-  ts-node: 10.6.0
+  ts-node: 10.7.0
   typescript: 4.6.2
 
 dependencies:
@@ -31,7 +31,7 @@ devDependencies:
   husky: 7.0.4
   prettier: 2.5.1
   standard-version: 9.3.2
-  ts-node: 10.6.0_ef4f5b62551ca68fc45e5a6c3dd7806a
+  ts-node: 10.7.0_ef4f5b62551ca68fc45e5a6c3dd7806a
   typescript: 4.6.2
 
 packages:
@@ -1147,7 +1147,7 @@ packages:
     dependencies:
       '@types/node': 14.18.12
       cosmiconfig: 7.0.1
-      ts-node: 10.6.0_ef4f5b62551ca68fc45e5a6c3dd7806a
+      ts-node: 10.7.0_ef4f5b62551ca68fc45e5a6c3dd7806a
       typescript: 4.6.2
     transitivePeerDependencies:
       - '@swc/core'
@@ -3303,8 +3303,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /ts-node/10.6.0_ef4f5b62551ca68fc45e5a6c3dd7806a:
-    resolution: {integrity: sha512-CJen6+dfOXolxudBQXnVjRVvYTmTWbyz7cn+xq2XTsvnaXbHqr4gXSCNbS2Jj8yTZMuGwUoBESLaOkLascVVvg==}
+  /ts-node/10.7.0_ef4f5b62551ca68fc45e5a6c3dd7806a:
+    resolution: {integrity: sha512-TbIGS4xgJoX2i3do417KSaep1uRAW/Lu+WAL2doDHC0D6ummjirVOXU5/7aiZotbQ5p1Zp9tP7U6cYhA0O7M8A==}
     hasBin: true
     peerDependencies:
       '@swc/core': '>=1.2.50'
