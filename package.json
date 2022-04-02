@@ -4,11 +4,11 @@
   "private": true,
   "description": "",
   "bugs": {
-    "url": "https://gitlab.com/4s1/playground-project/issues"
+    "url": "https://github.com/4s1-org/playground-project/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/4s1/playground-project.git"
+    "url": "https://github.com/4s1-org/playground-project.git"
   },
   "license": "MIT",
   "author": "Steffen <steffen@4s1.de>",
