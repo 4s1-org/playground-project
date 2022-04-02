@@ -4,9 +4,12 @@ on:
   push:
     branches:
       - main
+    branches-ignore:
       - 'renovate/**'
   pull_request:
     types: [opened, synchronize, reopened]
+    branches-ignore:
+      - 'renovate/**'
 
 jobs:
   sonarcloud-typescript:
