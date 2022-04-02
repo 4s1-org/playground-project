@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://gitlab.com/4s1/playground-project/compare/v2.0.0...v2.1.0) (2022-04-02)
+
+
+### Bug Fixes
+
+* typo ([bec6b31](https://gitlab.com/4s1/playground-project/commit/bec6b311d2d7c21b67ef9db78b9468994580705b))
+
 ## [2.0.0](https://gitlab.com/4s1/playground-project/compare/v1.1.0...v2.0.0) (2021-11-21)
 
 
