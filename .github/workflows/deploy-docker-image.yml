@@ -1,4 +1,4 @@
-name: Validate TypeScript
+name: Deploy Docker image
 
 on:
   push:
