@@ -1,0 +1,9 @@
+name: Validate TypeScript
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy-docker-image:
+    uses: 4s1-org/ci-cd-config/.github/workflows/deploy-docker-image.yml@main
