@@ -3,7 +3,7 @@ name: Deploy Docker image
 on:
   create:
     tags:
-      - v*
+      - 'v*'
 
 jobs:
   deploy-docker-image:
