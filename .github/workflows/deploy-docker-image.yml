@@ -1,8 +1,9 @@
 name: Deploy Docker image
 
 on:
-  push:
+  create:
     tags:
+      - v*
 
 jobs:
   deploy-docker-image:
