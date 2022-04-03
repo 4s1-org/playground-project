@@ -1,4 +1,4 @@
-name: Validate TypeScript
+name: Validate
 
 on:
   push:
