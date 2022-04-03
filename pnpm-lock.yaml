@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@4s1/eslint-config': 3.11.0
-  '@4s1/playground-library': 8.5.5
+  '@4s1/playground-library': 8.6.0
   '@4s1/ts-config': 1.4.0
   '@commitlint/cli': 16.2.3
   '@commitlint/config-conventional': 16.2.1
@@ -17,7 +17,7 @@ specifiers:
   typescript: 4.6.3
 
 dependencies:
-  '@4s1/playground-library': 8.5.5
+  '@4s1/playground-library': 8.6.0
 
 devDependencies:
   '@4s1/eslint-config': 3.11.0_1c11022da6bee94acd53a18a58163cda
@@ -53,14 +53,14 @@ packages:
       - typescript
     dev: true
 
-  /@4s1/playground-library/8.5.5:
-    resolution: {integrity: sha512-XjNPO+1RGTn5GL1R9ClOCb5bG9LCV+OoChtK3FaT7s3/RHDJCHrw2RQIBlA9sJipklNfhK3k21h2nfs4fym8iQ==}
+  /@4s1/playground-library/8.6.0:
+    resolution: {integrity: sha512-7gU7K6zkGo/q07amy8al8FM/qB2FzSft9S+6HNEwUSOAog6/APt0juoXR9wzrq/yWY8k+2vPinaae9PE9lyBGg==}
     dependencies:
-      '@4s1/toolbox': 4.1.0
+      '@4s1/toolbox': 4.3.0
     dev: false
 
-  /@4s1/toolbox/4.1.0:
-    resolution: {integrity: sha512-wIij4Y2kLA2EQBr0y5RbXJ7oej8n/kiGvuRTT4o7BzrZTRoRzILn0k+tiXbM81kQzHIfbt8MJtXAmk1WaZHShQ==}
+  /@4s1/toolbox/4.3.0:
+    resolution: {integrity: sha512-oAc+28QO7D6+JRHZit1QeJ/g1F+CqWR4h7PwfTmKdkINKz29O3QSZuqng9+pZZZNoiDbn9p2cs2D1gJfOARFMw==}
     dev: false
 
   /@4s1/ts-config/1.4.0:
