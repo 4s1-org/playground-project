@@ -34,7 +34,7 @@
   },
   "prettier": "@4s1/eslint-config",
   "dependencies": {
-    "@4s1/playground-library": "8.5.5"
+    "@4s1/playground-library": "8.6.0"
   },
   "devDependencies": {
     "@4s1/eslint-config": "3.11.0",
