@@ -7,7 +7,7 @@ specifiers:
   '@commitlint/cli': 16.2.3
   '@commitlint/config-conventional': 16.2.1
   '@types/node': 14.18.12
-  ava: 4.1.0
+  ava: 4.2.0
   c8: 7.11.0
   eslint: 8.13.0
   husky: 7.0.4
@@ -25,7 +25,7 @@ devDependencies:
   '@commitlint/cli': 16.2.3
   '@commitlint/config-conventional': 16.2.1
   '@types/node': 14.18.12
-  ava: 4.1.0
+  ava: 4.2.0
   c8: 7.11.0
   eslint: 8.13.0
   husky: 7.0.4
@@ -652,8 +652,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /ava/4.1.0:
-    resolution: {integrity: sha512-QD6MBWHzagAwb9vxduXzVWx6Q77DUHLxvIebSY6+enL+Ri6KzSZYj0IBOFifA26wfpJPZnWKLUh3vwx1LyVh/g==}
+  /ava/4.2.0:
+    resolution: {integrity: sha512-96N/rH2ZlBjoh18CsjH3zfo/rzukkRoqNK7R/Z3MLRrqu6cRRf+i4Zwna7ZRYEIl55yF1BKh/nSPCZWqoXfPJA==}
     engines: {node: '>=12.22 <13 || >=14.17 <15 || >=16.4 <17 || >=17'}
     hasBin: true
     peerDependencies:
@@ -1689,7 +1689,7 @@ packages:
     engines: {node: '>=8.0.0'}
     dependencies:
       cross-spawn: 7.0.3
-      signal-exit: 3.0.4
+      signal-exit: 3.0.7
     dev: true
 
   /fs-access/1.0.1:
@@ -3016,10 +3016,6 @@ packages:
       call-bind: 1.0.2
       get-intrinsic: 1.1.1
       object-inspect: 1.11.1
-    dev: true
-
-  /signal-exit/3.0.4:
-    resolution: {integrity: sha512-rqYhcAnZ6d/vTPGghdrw7iumdcbXpsk1b8IG/rz+VWV51DM0p7XCtMoJ3qhPLIbp3tvyt3pKRbaaEMZYpHto8Q==}
     dev: true
 
   /signal-exit/3.0.7:
