@@ -5,7 +5,7 @@ specifiers:
   '@4s1/playground-library': 8.6.0
   '@4s1/ts-config': 1.4.1
   '@types/node': 14.18.21
-  ava: 4.3.0
+  ava: 4.3.1
   c8: 7.11.3
   eslint: 8.19.0
   prettier: 2.7.1
@@ -20,7 +20,7 @@ devDependencies:
   '@4s1/eslint-config': 3.14.0_2accb0a72e685669f4189d9c79f10075
   '@4s1/ts-config': 1.4.1
   '@types/node': 14.18.21
-  ava: 4.3.0
+  ava: 4.3.1
   c8: 7.11.3
   eslint: 8.19.0
   prettier: 2.7.1
@@ -496,8 +496,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /ava/4.3.0:
-    resolution: {integrity: sha512-Ap0u8rp8wOBN6CxshgxrPSe191e8g52RWGoXeDB57ubo4fyZyStfI6OxQi/bl0yxIDEOYHhCiGwihbzlMNJw3Q==}
+  /ava/4.3.1:
+    resolution: {integrity: sha512-zdSp9QxRTmN5hJeGmg+ZjUKL5yHFLMcP/0KBla8GH25XD8Xm7Uc34CDFlwqGL6JXtjNbVkJ0Zw+DqcTf4ggCCA==}
     engines: {node: '>=12.22 <13 || >=14.17 <15 || >=16.4 <17 || >=18'}
     hasBin: true
     peerDependencies:
