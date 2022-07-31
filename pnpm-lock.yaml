@@ -6,7 +6,7 @@ specifiers:
   '@4s1/ts-config': 1.4.1
   '@types/node': 14.18.22
   ava: 4.3.1
-  c8: 7.11.3
+  c8: 7.12.0
   eslint: 8.20.0
   prettier: 2.7.1
   standard-version: 9.5.0
@@ -21,7 +21,7 @@ devDependencies:
   '@4s1/ts-config': 1.4.1
   '@types/node': 14.18.22
   ava: 4.3.1
-  c8: 7.11.3
+  c8: 7.12.0
   eslint: 8.20.0
   prettier: 2.7.1
   standard-version: 9.5.0
@@ -586,8 +586,8 @@ packages:
     resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
     dev: true
 
-  /c8/7.11.3:
-    resolution: {integrity: sha512-6YBmsaNmqRm9OS3ZbIiL2EZgi1+Xc4O24jL3vMYGE6idixYuGdy76rIfIdltSKDj9DpLNrcXSonUTR1miBD0wA==}
+  /c8/7.12.0:
+    resolution: {integrity: sha512-CtgQrHOkyxr5koX1wEUmN/5cfDa2ckbHRA4Gy5LAL0zaCFtVWJS5++n+w4/sr2GWGerBxgTjpKeDclk/Qk6W/A==}
     engines: {node: '>=10.12.0'}
     hasBin: true
     dependencies:
